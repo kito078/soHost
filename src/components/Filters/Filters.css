@@ -1,0 +1,61 @@
+
+
+.win{
+  overflow-x: hidden;
+  border-bottom: 1px solid #f0efef;
+  margin-top: 7rem;
+  /* position: fixed;
+	top: 5px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+  background-color: #fff; */
+  
+}
+/* .element{
+  width: 0 !important;
+} */
+
+.oneSwiper{
+  /* border: 1px solid #494949; */
+  width: 150px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column ;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  height: 7rem; 
+
+  
+
+}
+.oneSwiper svg{
+  font-size: 2rem !important;
+  color: #7b7b7b !important;
+}
+.oneSwiper h5{
+  color: #7b7b7b;
+  padding-bottom: 11px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  
+}
+.swiper-border{
+  border-bottom: 2px solid #7b7b7b;
+ 
+}
+.oneSwiper:hover svg {
+  color: #494949 !important;
+  
+}
+.oneSwiper:hover h5 {
+  padding-bottom: 11px;
+  color: #494949;
+  border-bottom: 2px solid #d0cdcd;
+}
+
+
+.slick-dots {
+  display: none !important;
+}

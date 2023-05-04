@@ -1,0 +1,67 @@
+
+
+.search > input{
+    width: 530px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+}
+
+.rdrMonth{
+    max-width: 500px !important;
+    margin: auto !important;
+}
+
+
+
+
+/* Default styles for the DateRangePicker */
+.react-date-range-picker {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .react-date-range-picker__wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .react-date-range-picker__calendar {
+    width: 540px !important;
+  }
+  
+  .react-date-range-picker__calendar .rdrMonth {
+    width: 180px !important;
+    margin: 0 10px !important;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .react-date-range-picker__wrapper {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+  
+    .react-date-range-picker__calendar {
+      width: 100% !important;
+    }
+  
+    .react-date-range-picker__calendar .rdrMonth {
+      width: 100% !important;
+      margin: 10px 0 !important;
+    }
+    .rdrStaticRangeLabel{
+        color: aliceblue !important;
+        display: none !important;
+    }
+    .rdrDefinedRangesWrapper{
+        display: none;
+    }
+  }
+  

@@ -1,0 +1,177 @@
+.card{
+    border: none !important;
+}
+  .boxItem__header{
+    position: relative;
+   /* max-width: 270px;  */
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    
+   
+}
+.boxItem__header img{
+    border-radius: 15px;
+   
+  
+}
+  .love-bage{
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    cursor: pointer;
+}
+.love-bage svg{
+    font-size: 2.5rem;
+    color: #555 !important;
+    
+}
+
+/* .liked svg{
+    color: red !important;
+} */
+
+.card-content{
+    position: relative;
+  
+}
+.star__bage{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.boxItem__title{
+    font-size: 1.8rem !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: #555;
+}
+
+.boxItem__loc, .boxItem__date{
+    color: #a9a7a7;
+  
+}
+.boxItem__body h5{
+    font-size: 1.8rem;
+    font-weight: 400 ;
+}
+
+
+
+.boxItem__night{
+    font-size: 1.5rem;
+    color: #555 !important;
+}
+
+.star svg{
+    color: rgb(246, 224, 104) !important;
+}
+
+
+.link-top{
+text-decoration: none !important;
+}
+
+.boxItem__price{
+    color: #555 !important;
+  }
+
+  .star-review{
+    color: #555;
+  }
+
+@media only screen and (min-width: 515px) {
+    .love-bage h5{
+     color: #fff !important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+.boxItem__title{
+    font-size: 1.8rem !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: #555;
+}
+
+.boxItem__body h5{
+    font-size: 1.6rem;
+    font-weight: 400;
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.boxItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+  
+}
+.boxItem__header{
+    position: relative;
+   max-width: 270px; 
+    max-width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+.love-bage{
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    cursor: pointer;
+}
+.love-bage svg{
+    font-size: 2.5rem;
+}
+.boxItem__header img{
+    border-radius: 15px;
+}
+.boxItem__cont{
+    max-width: 270px;
+    margin: auto;
+}
+
+
+.boxItem__title{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.boxItem__loc, .boxItem__date{
+    color: #a9a7a7;
+  
+}
+.boxItem__body h5{
+    font-size: 1.8rem;
+    
+}
+
+.boxItem__night{
+    font-size: 1.5rem;
+} */
