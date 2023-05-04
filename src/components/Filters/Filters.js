@@ -159,7 +159,7 @@ export default class AutoPlayMethods extends Component {
     };
 
     return (
-      <div className="win">
+      <div className="win ">
         <Slider ref={(slider) => (this.slider = slider)} {...settings}>
           {itemsList.map((item1) => (
             <div

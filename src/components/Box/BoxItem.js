@@ -19,7 +19,7 @@ function BoxItem(props) {
   return (
     <Link to="/details" className="link-top">
       <div>
-        <div class="card mx-4 mx-lg-3 my-4 my-md-5">
+        <div class="card mx-4 mx-lg-3 my-5 my-md-5">
           <div className="boxItem__header">
             <div
               className={liked ? "love-bage liked" : "love-bage"}
@@ -31,16 +31,16 @@ function BoxItem(props) {
           </div>
           <div class="card-content boxItem__body text-start">
             <div>
-              <h5 className="boxItem__title mt-4 my-2">{title}</h5>
+              <h5 className="boxItem__title mt-4 my-2 ">{title}</h5>
             </div>
-            <div className="star__bage ms-4 ps-4 mt-3 d-none d-lg-block">
+            <div className="star__bage ms-4 ps-4 mt-4 d-none d-lg-block">
               <div className="d-flex">
-                <h5 className="star me-2">{props.star}</h5>
-                <h5 className="star-review">4.9</h5>
+                <h5 className="star me-2 ">{props.star}</h5>
+                <h5 className="star-review ">4.9</h5>
               </div>
             </div>
-            <h5 className="boxItem__loc">{props.loc}</h5>
-            <h5 className="boxItem__date my-2">{props.date}</h5>
+            <h5 className="boxItem__loc mt-4">{props.loc}</h5>
+            <h5 className="boxItem__date my-2 mb-4 mt-2">{props.date}</h5>
             <div className="d-flex">
               <h5 className="boxItem__price ">${props.price}</h5>
               <h5 className="boxItem__night ms-2">night</h5>

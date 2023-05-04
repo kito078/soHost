@@ -3,18 +3,10 @@
 .win{
   overflow-x: hidden;
   border-bottom: 1px solid #f0efef;
-  margin-top: 7rem;
-  /* position: fixed;
-	top: 5px;
-	left: 0;
-	right: 0;
-	z-index: 999;
-  background-color: #fff; */
-  
+  margin-top: 5.6rem;
+  margin-bottom: 0;
+
 }
-/* .element{
-  width: 0 !important;
-} */
 
 .oneSwiper{
   /* border: 1px solid #494949; */
@@ -24,12 +16,10 @@
   justify-content: center !important;
   flex-direction: column ;
   margin-top: 4rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   height: 7rem; 
-
-  
-
 }
+
 .oneSwiper svg{
   font-size: 2rem !important;
   color: #7b7b7b !important;
@@ -59,3 +49,26 @@
 .slick-dots {
   display: none !important;
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .win{
+    overflow-x: hidden;
+    border-bottom: 1px solid #f0efef;
+    margin-top: 7rem;
+    margin-bottom: 0;
+  
+  }
+  .oneSwiper{
+    margin-bottom: 2.5rem;
+    
+  }
+  
+}
+
+

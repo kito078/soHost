@@ -11,6 +11,10 @@ import CartContext from "../../store/cart-context";
 function Home(props) {
   const [chosen, setChosen] = useState({});
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   //   We use the useEffect hook to add and remove the scroll event listener to the window object.
 
   // In React, we typically want to separate side effects from rendering. Side effects are any operations that don't directly affect the UI, such as adding or removing event listeners, making network requests, or updating the browser's localStorage.

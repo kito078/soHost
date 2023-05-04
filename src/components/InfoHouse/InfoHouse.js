@@ -14,6 +14,12 @@ const InfoHouse = (props) => {
   const objectLength = Object.keys(cartCtx.items).length < 1;
   console.log(objectLength);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // rest of your code
+
   return (
     <div className="house-one mb-5 pb-5">
       <div className={objectLength && "d-none "}>
