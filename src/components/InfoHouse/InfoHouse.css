@@ -7,9 +7,11 @@
 }
 
 .house__private{
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .house__reviews, .house__down h5{
@@ -26,6 +28,7 @@
 
 .house__down svg{
   font-size: 2rem;
+  color: #d946ef !important;
 }
 
 .house__avatar img{
@@ -33,6 +36,7 @@
   height: 60px;
   border-radius: 100%;
   object-fit: cover;
+  border: 2px solid #d946ef;
 }
 
 .house__check svg{
@@ -55,7 +59,7 @@
 
 
 .btn-reverse{
-  background: #555;
+  background: #d946ef;
   font-size: 1.5rem !important;
   font-weight: 400 !important;
   text-transform: uppercase !important;
@@ -66,6 +70,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .house__private{
+    font-size: 2.6rem;
+   
+  }
+  
   .house-one{
     margin-top: 12rem;
   }
@@ -161,7 +170,7 @@
 
 
 .plans{
-  background: #f4f9ff;
+  background: #f4f3f3;
   color: #636363;
  
 }
@@ -172,7 +181,7 @@
 }
 .plans h1{
   font-size: 3rem !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
 }
 .plans p{
   font-size: 1.4rem !important;

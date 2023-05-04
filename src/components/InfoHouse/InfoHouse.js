@@ -22,7 +22,7 @@ const InfoHouse = (props) => {
             <div className="d-none d-md-block">
               <div className="house__container  ms-md-2 my-5">
                 <div>
-                  <h2 className="house__private mt-3">
+                  <h2 className="house__private mt-3 ">
                     {cartCtx.items.item && cartCtx.items.item.title}
                     {/* {cartCtx.items.item.title} */}
                   </h2>

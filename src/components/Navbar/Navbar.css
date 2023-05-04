@@ -191,7 +191,7 @@ nav {
   .btn--accent {
     /* background: #ff3400 !important; */
     /* background: #ff3400!important; */
-    background: #d5234b !important;
+    background: #d946ef !important;
     color: #fff !important;
   }
   
@@ -239,13 +239,13 @@ nav {
 }
 .nav__header__logo svg{
 	font-size: 4rem !important;
-	color: #ff3400 !important;
+	color: #d946ef!important;
 }
 
 .nav__header__logo h5{
 	font-size: 2.2rem !important;
 	font-weight: 800;
-	color: #ff3400  !important;
+	color: #d946ef !important;
 }
 
 /*SEARCH */
