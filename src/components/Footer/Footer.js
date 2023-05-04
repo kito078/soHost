@@ -21,7 +21,7 @@ function Footer() {
               <Link className="link-top" to="/">
                 <Col className="footer__icon d-flex flex-column align-items-center justify-content-center mx-4 text-center">
                   <BiSearch />
-                  <h5 className="mt-2">Explore</h5>
+                  <h5 className="mt-2">Home</h5>
                 </Col>
               </Link>
             </Col>
